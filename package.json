@@ -1,6 +1,6 @@
 {
   "name": "@cloakedxyz/clkd-stealth",
-  "version": "0.0.1",
+  "version": "1.0.4",
   "description": "Core stealth address tools for Cloaked",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -40,6 +40,9 @@
     "url": "https://github.com/cloakedxyz/clkd-stealth/issues"
   },
   "homepage": "https://github.com/cloakedxyz/clkd-stealth#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "pnpm@10.18.0",
   "dependencies": {
     "@noble/secp256k1": "^3.0.0",
