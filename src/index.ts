@@ -1,5 +1,6 @@
 // Export all client functions
 export {
+  genKeys,
   genKeysFromSignature,
   genStealthPrivateKey,
   genCloakedMessage,
