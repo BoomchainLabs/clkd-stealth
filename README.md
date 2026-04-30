@@ -1,9 +1,3 @@
-> **⚠️ Development Status**
->
-> This library is currently under active development and is not yet ready for production use. The API and implementation are subject to change as we continue to refine and test the cryptographic primitives. A stable release will be available soon. Please check back for updates or monitor the repository for release announcements.
->
-> **Note:** This repository will eventually be hosted as an application that makes recovery much simpler for non-technical users at [recovery.staycloaked.xyz](https://recovery.staycloaked.xyz).
-
 <div align="center">
   <img src="img/cloaked_logo.png" alt="Cloaked Logo" width="200">
 </div>
