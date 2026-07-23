@@ -9,9 +9,9 @@ Secret: `;
 
 describe('genCloakedMessage', () => {
   // Captured from v1.1.0 before EIP-55 normalization was added. These pin the
-  // derivation for every already-registered user: a change here rotates their
-  // keys and strands their funds.
-  describe('backwards compatibility', () => {
+  // exact derivation for the checksummed addresses used by existing production
+  // callers. They do not claim compatibility for non-checksummed SDK inputs.
+  describe('checksummed backwards compatibility', () => {
     it.each([
       {
         pin: '1234',

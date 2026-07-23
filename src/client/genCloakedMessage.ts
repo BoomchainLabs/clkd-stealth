@@ -29,7 +29,8 @@ export function genCloakedMessage({
   // The address is hashed as a string, so its casing is load-bearing: the same
   // wallet passed as lowercase vs EIP-55 would derive a different, valid-looking
   // keypair. Normalize so callers cannot silently strand a user's funds.
-  // getAddress() is idempotent on checksummed input, so existing keys are unchanged.
+  // getAddress() is idempotent on checksummed input, so the checksummed addresses
+  // used by existing production callers derive exactly the same keys.
   const checksummedAddress = getAddress(address);
 
   // Generate the secret based on the user's PIN and address
